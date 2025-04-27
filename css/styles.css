@@ -105,13 +105,10 @@ ol {
    font-size: 16px;
    line-height: 1.5;
    letter-spacing: 0.02em;
-   color: #2E2F42;
+   color: #404bbf;
    text-decoration: none;
    padding: 24px 0 24px 0;
-   transition: 0.5s;
-   transition-property: color;
-   transition-duration: 500ms;
-   transition-timing-function: linear;
+   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-a::after{
@@ -404,6 +401,7 @@ ol {
 /*
    Portfolio
 */
+
 .section-portfolio{
   padding: 120px 0;
 }
